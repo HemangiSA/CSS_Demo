@@ -1,0 +1,42 @@
+ul
+{
+	list-style-type:none;
+	margin:0;
+	padding:0;
+	overflow:hidden;
+	background-color:#6c9e8a;
+	text-align:center;
+}
+li
+{
+	float:left;
+	font-size:12px;
+}
+li a
+{
+	display:block;
+	color:black;
+	text-align:center;
+	padding:10px 210px;
+	text-decoration:none;
+}
+h2
+{
+	text-align:center;
+}
+li a:hover
+{
+	background-color:white;
+	color:#c20036;
+}
+table {
+  border-collapse: collapse;
+  width: 100%;
+}
+
+th, td {
+  text-align: left;
+  padding: 8px;
+}
+
+tr:nth-child(even) {background-color: #f2f2f2;}
